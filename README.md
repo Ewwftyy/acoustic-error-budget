@@ -2,8 +2,13 @@
 
 **Where does the error come from?** This repository measures it on a real link: a laptop speaker and microphone, every transmitted bit known. The error of each received constellation is decomposed into its physical causes, and the error floor is shown to follow the room's energy-decay curve read at the equalizer's reach.
 
-- Dataset description: [`DATASET_README.md`](DATASET_README.md) (data on Zenodo)
-- Paper: in preparation
+## Main findings (one room, 280+ captures)
+- **The link is ISI-limited, not noise-limited.** At high TX level, background SNR is 34–38 dB, but MER is only 14 / 11.7 / 7.5 dB at 250 / 500 / 1000 baud. Noise is ≤4% of the error power.
+- **The error floor follows the room's energy-decay curve read at the equalizer's reach.** All symbol rates fall on the same curve, within about 1 dB, for reaches up to 16 ms (figure below).
+- **The reach is limited by the training preamble.** Going from a 127- to a 511-symbol preamble raises the best MER at 1000 baud from 8.4 to 15.4 dB, and cuts 16-QAM symbol errors from 37% to 1.7%, at the cost of 46% frame overhead instead of 17%.
+- The error-budget decomposition is validated on synthetic data: each impairment is recovered within 0.3 dB when present alone.
+
+Dataset description: [`DATASET_README.md`](DATASET_README.md)
 
 ![MER vs equalizer reach](figures/reach_canonical.png)
 
