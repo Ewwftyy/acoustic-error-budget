@@ -1,0 +1,10 @@
+{
+  "title": "Known-bit acoustic link dataset and code: error-budget decomposition of a real reverberant channel",
+  "upload_type": "dataset",
+  "description": "SigMF recordings of a laptop speaker-to-microphone acoustic link (3 kHz carrier, BPSK-64QAM, 250-2000 baud) in which every transmitted bit is known, together with the receiver, the error-budget decomposition, impulse-response and equalizer-reach analysis code. See README.md, DATASET_README.md and PAPER.md.",
+  "creators": [{"name": "Al Rabby, Efty", "affiliation": "Islamic University of Technology (IUT)", "orcid": "0009-0001-9647-3501"}],
+  "license": "cc-by-4.0",
+  "keywords": ["acoustic communication", "SigMF", "error budget", "EVM", "intersymbol interference", "room impulse response", "equalization", "dataset"],
+  "access_right": "open",
+  "version": "0.2.0"
+}

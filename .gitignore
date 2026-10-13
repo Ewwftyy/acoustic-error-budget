@@ -1,0 +1,15 @@
+data/
+old_runs/
+results*/
+cache_features/
+__pycache__/
+*.pyc
+*.npz
+
+# private working files
+PAPER.md
+PROTOCOL.md
+PUBLISH.md
+NRX_PROJECT_LOG.md
+analyze_paper.ps1
+zenodo_*.zip

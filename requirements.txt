@@ -1,0 +1,6 @@
+numpy
+scipy
+matplotlib
+pandas
+sounddevice
+# neural receiver (GPU build): pip install torch --index-url https://download.pytorch.org/whl/cu124

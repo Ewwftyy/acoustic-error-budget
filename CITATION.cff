@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "acoustic-error-budget: error-budget decomposition and room-decay prediction of the error floor of a real acoustic link"
+authors:
+  - family-names: "Al Rabby"
+    given-names: "Efty"
+    affiliation: "Islamic University of Technology (IUT), Bangladesh"
+    orcid: "https://orcid.org/0009-0001-9647-3501"
+version: "0.2.0"
+date-released: "2026-10-13"
+license: MIT
+repository-code: "https://github.com/Ewwftyy/acoustic-error-budget"
+keywords: [acoustic communication, error vector magnitude, error budget, intersymbol interference, room impulse response, equalization, SigMF, dataset]
