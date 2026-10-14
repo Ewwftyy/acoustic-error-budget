@@ -13,3 +13,5 @@ PUBLISH.md
 NRX_PROJECT_LOG.md
 analyze_paper.ps1
 zenodo_*.zip
+zenodo_parts/
+*.pdf

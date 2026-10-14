@@ -10,6 +10,8 @@
 
 Dataset description: [`DATASET_README.md`](DATASET_README.md)
 
+**Data:** [doi:10.5281/zenodo.23343762](https://doi.org/10.5281/zenodo.23343762) (Zenodo, CC BY 4.0)
+
 ![MER vs equalizer reach](figures/reach_canonical.png)
 
 ## Quick start
@@ -44,7 +46,7 @@ python collect.py --label myroom --rs 250 1000 --mods QPSK 16QAM --levels 0 -6 \
 Each capture is `<name>.sigmf-data` (float32 little-endian mono audio, 48 kHz) plus `<name>.sigmf-meta` (JSON). Everything needed to regenerate the transmitted bits is stored under the `acomm:` keys: modulation, symbol rate, TX level, seed, preamble length, frame and gap timing, label, free-text notes.
 
 ## Citation
-See [`CITATION.cff`](CITATION.cff).
+See [`CITATION.cff`](CITATION.cff). Dataset: E. Al Rabby, *Known-bit acoustic link dataset: error-budget decomposition of a real reverberant channel*, Zenodo, 2026. doi:10.5281/zenodo.23343762
 
 ## License
 Code: MIT ([`LICENSE`](LICENSE)). Data: CC BY 4.0.

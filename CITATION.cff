@@ -8,6 +8,7 @@ authors:
     orcid: "https://orcid.org/0009-0001-9647-3501"
 version: "0.2.0"
 date-released: "2026-10-13"
+doi: "10.5281/zenodo.23343762"
 license: MIT
 repository-code: "https://github.com/Ewwftyy/acoustic-error-budget"
 keywords: [acoustic communication, error vector magnitude, error budget, intersymbol interference, room impulse response, equalization, SigMF, dataset]
